@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://fullstack-chat-app-pi.vercel.app",
+  "https://fullstack-chat-app-coral.vercel.app",
 ];
 
 app.use(
